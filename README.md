@@ -1,5 +1,7 @@
 # typescript-monorepo-cra-example
 
+![<ComponentA>](assets/component-a.png)
+
 > 🙉 TypeScript Monorepo Sample  
 Required TypeScript@3 above
 
@@ -36,6 +38,7 @@ $ yarn build:packages
 $ yarn start
 ```
 
-### 👌
+### Related
 
-![<ComponentA>](assets/component-a.png)
+- [typescript-monorepo-next-example](https://github.com/deptno/typescript-monorepo-next-example) - Next.js version
+
