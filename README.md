@@ -15,7 +15,7 @@ $ cd typescript-monorepo
 $ rm -r packages/react-app/node_modules
 ```
 
-- create [packages.json](packages.json)
+- create [package.json](package.json)
 - create [packages/tsconfig.json](packages/tsconfig.json)
 - create [packages/tsconfig.base.json](packages/tsconfig.base.json)
 
@@ -23,17 +23,12 @@ $ rm -r packages/react-app/node_modules
 
 - create [packages/component-a](packages/component-a) - 3 files
 
-```bash
-$ cd packages/component-a
-$ yarn link
-$ cd ../react-app
-$ yarn link component-a
-$ cd ../..
-```
-
 ### Edit react-app
 
-- edit [packages/react-app/src/app.tsx](packages/react-app/src/app.tsx)
+- edit packages/react-app/src/App.tsx
+  - [packages/react-app/src/App.tsx](packages/react-app/src/App.tsx#L4)
+  - [packages/react-app/src/App.tsx](packages/react-app/src/App.tsx#L18)
+- edit [packages/react-app/package.json](packages/react-app/package.json#L9)
 
 ```bash
 $ yarn
